@@ -8,7 +8,7 @@ Each month links to a newsletter edition where available. Missing months are sho
 
 ---
 
-## 🌐 Website
+## index.html
 
 Once deployed with GitHub Pages, you can browse the calendar here:
 
