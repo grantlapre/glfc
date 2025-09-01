@@ -1,0 +1,25 @@
+
+:root{
+  --brand:#0B3D91;
+  --ink:#222;
+  --muted:#7a86a2;
+  --card:#ffffff;
+  --bg:#f7f8fa;
+  --disabled:#c7cfde;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,Helvetica,sans-serif}
+header{background:var(--brand);color:#fff;padding:24px 16px;text-align:center}
+header img{max-width:100%;height:auto}
+.container{max-width:1100px;margin:24px auto;padding:0 16px}
+.year-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:16px}
+.card{background:var(--card);border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,.08);padding:16px}
+.card h3{margin:0 0 12px 0;border-bottom:3px solid #eef1f6;padding-bottom:6px;color:var(--brand)}
+.months{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.month{position:relative;display:flex;align-items:center;justify-content:center;padding:10px 8px;border:1px solid #eef1f6;border-radius:10px;background:#fdfdff;font-weight:600;cursor:pointer;text-decoration:none;color:var(--brand)}
+.month:hover{box-shadow:0 4px 12px rgba(63,122,224,.15)}
+.month.disabled{color:#7f8dab;background:linear-gradient(135deg,#f0f3fa,#e1e7f5);cursor:not-allowed;filter:grayscale(.3)}
+.month.disabled::after{content:"☁";position:absolute;right:8px;top:6px;color:#9aa7bf;font-size:14px}
+footer{color:var(--muted);text-align:center;padding:24px 0 40px}
+.legend{display:flex;gap:12px;align-items:center;margin:12px 0 0 0;color:#445}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px;border:1px solid #d6e2ff;background:#f7f9ff;color:#394362}
