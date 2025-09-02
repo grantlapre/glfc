@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GLFC AML/CFT/Fraud & Financial Crime Newsletter — September 2018</title>
+<style>
+  :root{
+    --bg:#ffffff;
+    --fg:#0f172a;
+    --muted:#475569;
+    --accent:#0ea5e9;
+    --accent-2:#22c55e;
+    --card:#f8fafc;
+    --border:#e2e8f0;
+    --link:#0369a1;
+  }
+  [data-theme="dark"]{
+    --bg:#0b1020;
+    --fg:#e5e7eb;
+    --muted:#9aa1b2;
+    --accent:#38bdf8;
+    --accent-2:#22d3ee;
+    --card:#11172a;
+    --border:#1f2a44;
+    --link:#7dd3fc;
+  }
+  html,body{height:100%}
+  body{
+    margin:0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    background:var(--bg);
+    color:var(--fg);
+    line-height:1.6;
+  }
+  .container{
+    max-width:1100px;
+    margin:0 auto;
+    padding:2rem 1rem 5rem;
+    display:grid;
+    grid-template-columns: 290px 1fr;
+    gap:2rem;
+  }
+  header.hero{
+    background: linear-gradient(120deg, var(--accent), var(--accent-2));
+    color:#00111a;
+    padding:2.25rem 1rem;
+  }
+  .hero-inner{
+    max-width:1100px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:1rem;
+  }
+  .brand{
+    display:flex;
+    flex-direction:column;
+    gap:.25rem;
+  }
+  .brand .kicker{
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    font-weight:600;
+    opacity:.85;
+    font-size:.9rem;
+  }
+  .brand h1{
+    margin:.1rem 0 0 0;
+    font-size:1.75rem;
+    line-height:1.2;
+  }
+  .meta{
+    text-align:right;
+    font-size:.95rem;
+    font-weight:600;
+  }
+  .toolbar{
+    display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; margin-top:.75rem;
+  }
+  .btn{
+    border:1px solid rgba(0,0,0,.1);
+    background:#ffffffbd;
+    color:#0b1020;
+    padding:.45rem .75rem;
+    border-radius:.6rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:.2s ease;
+  }
+  .btn:hover{ transform:translateY(-1px) }
+  .btn.outline{ background:transparent; border-color:#ffffff; color:#fff }
+  .btn.ghost{ background:transparent; color:#00111a; border-color:rgba(0,0,0,.15)}
+  nav.toc{
+    position:sticky; top:1rem;
+    align-self:start;
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:1rem;
+    padding:1rem;
+  }
+  nav.toc h2{
+    margin:.25rem 0 1rem 0;
+    font-size:1rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);
+  }
+  nav.toc ol{ margin:0; padding-left:1rem }
+  nav.toc li{ margin:.4rem 0; }
+  nav.toc a{ color:var(--link); text-decoration:none }
+  main article{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius: 1rem;
+    padding:1.25rem 1.25rem;
+    margin-bottom:1rem;
+  }
+  article h3{
+    margin:.2rem 0 .35rem;
+    font-size:1.25rem;
+  }
+  .deck{
+    color:var(--muted);
+    margin:.25rem 0 1rem;
+  }
+  details{
+    background:transparent;
+    border:1px dashed var(--border);
+    border-radius:.75rem;
+    padding:.6rem .8rem;
+  }
+  details > summary{
+    list-style:none;
+    cursor:pointer;
+    font-weight:700;
+    color:var(--link);
+  }
+  details[open]{ border-style:solid }
+  .briefs{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:1rem;
+    padding:1rem 1.25rem;
+  }
+  .briefs h3{ margin-top:0 }
+  .briefs ul{ margin:0; padding-left:1.1rem }
+  .credit{
+    font-size:.9rem; color:var(--muted);
+  }
+  .src{font-size:.72rem;color:var(--muted);margin:.35rem 0 0}
+  footer{
+    margin-top:2rem; padding-top:1rem;
+    border-top:1px solid var(--border);
+    color:var(--muted);
+  }
+  .badge{
+    display:inline-block; padding:.22rem .55rem; border-radius:.5rem; background:rgba(2,132,199,.12); color:#0369a1; font-weight:700; font-size:.8rem;
+    border:1px solid rgba(2,132,199,.25);
+    margin-right:.4rem;
+  }
+  .controls{ display:flex; gap:.5rem; flex-wrap:wrap; margin:.5rem 0 1rem }
+  .muted{ color:var(--muted) }
+  .callout{
+    background:linear-gradient(180deg, rgba(2,132,199,.08), transparent);
+    border:1px solid var(--border);
+    border-radius:.8rem;
+    padding: .75rem 1rem;
+  }
+  @media (max-width: 960px){
+    .container{ grid-template-columns: 1fr }
+    .meta{ text-align:left }
+    nav.toc{ position:relative }
+  }
+  @media print{
+    .toolbar, nav.toc, .controls { display:none !important }
+    body{ background:#fff; color:#000 }
+    main article, .briefs{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brand">
+      <div class="kicker">GLFC AML/CFT • Fraud & Financial Crime</div>
+      <h1>Monthly Newsletter — September 2018</h1>
+      <div class="toolbar">
+        <button class="btn" id="toggleThemeBtn" title="Toggle dark mode">🌓 Theme</button>
+        <button class="btn ghost" id="expandAllBtn" title="Expand all story details">＋ Expand all</button>
+        <button class="btn ghost" id="collapseAllBtn" title="Collapse all story details">－ Collapse all</button>
+        <button class="btn outline" onclick="window.print()" title="Print or Save to PDF">🖨️ Print / Save PDF</button>
+      </div>
+    </div>
+    <div class="meta">
+      <div><strong>Prepared by:</strong> Lawrence S. Grant-Lapre, CAMS, CAMS-Audit</div>
+      <div><strong>Period covered:</strong> Items published on/before <em>31 Aug 2018</em></div>
+      <div class="muted">Audience: AML/FC compliance officers</div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <nav class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#eu-blocking">EU Blocking Statute — Iran Trade Shield</a></li>
+      <li><a href="#ofac-turkey">U.S. Sanctions Two Turkish Ministers</a></li>
+      <li><a href="#fincen-beneficial">FinCEN Extends Beneficial Ownership Relief</a></li>
+      <li><a href="#najib-aug">Malaysia: New Money-Laundering Charges vs Najib Razak</a></li>
+      <li><a href="#maritime-dprk">U.S. Targets Russia–DPRK Maritime Evasion</a></li>
+      <li><a href="#pdvsa-miami">Venezuela PDVSA: US$1.2bn Laundering Scheme</a></li>
+      <li><a href="#briefs">Brief Mentions</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <article id="eu-blocking">
+      <span class="badge">Story 1</span>
+      <h3>EU “Blocking Statute” to Shield Iran Trade</h3>
+      <p class="deck">7 Aug 2018: The EU activates its updated Blocking Statute (Reg. 2271/96) to counter the extraterritorial reach of U.S. Iran sanctions, creating conflicts-of-law for EU firms.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>The statute prohibits EU persons from complying with specified U.S. secondary sanctions unless authorised, enables recovery of damages, and renders foreign judgments based on the covered measures unenforceable within the EU. Compliance teams must update contractual language, attestations, and escalation paths for clashes between EU obligations and U.S. exposure.</p>
+        <p class="src" role="note">Source: European Union — Official Journal L199; European Commission guidance (7 Aug 2018).</p>
+      </details>
+    </article>
+
+    <article id="ofac-turkey">
+      <span class="badge">Story 2</span>
+      <h3>U.S. Sanctions Two Turkish Ministers</h3>
+      <p class="deck">1 Aug 2018: OFAC designates Turkey’s Ministers of Justice and Interior in relation to Andrew Brunson’s detention; immediate property-blocking and U.S. dealings prohibitions apply.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>The designations triggered rapid screening and payments controls for Turkey-linked parties. The episode illustrates the volatility of political sanctions and the need for near-real-time list updates, front-line briefings, and third-party risk checks for ownership/control exposure.</p>
+        <p class="src" role="note">Source: U.S. Department of the Treasury (OFAC) notice; contemporaneous news reports (1 Aug 2018).</p>
+      </details>
+    </article>
+
+    <article id="fincen-beneficial">
+      <span class="badge">Story 3</span>
+      <h3>FinCEN Extends Beneficial Ownership Relief</h3>
+      <p class="deck">8 Aug 2018: FinCEN prolongs its temporary exceptive relief for certain CD rollovers and loan renewals/modifications under the Beneficial Ownership Rule.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>The relief responded to operational challenges around re-collecting beneficial ownership information at each rollover. Institutions were expected to adjust policies, procedures, and control testing to reflect the extension period and align with supervision manuals.</p>
+        <p class="src" role="note">Source: FinCEN — “Extension of Temporary Exceptive Relief” (8 Aug 2018).</p>
+      </details>
+    </article>
+
+    <article id="najib-aug">
+      <span class="badge">Story 4</span>
+      <h3>Najib Razak Faces New Money-Laundering Charges</h3>
+      <p class="deck">8 Aug 2018: Malaysian prosecutors file three additional AMLA charges against former PM Najib Razak amid ongoing 1MDB-related cases.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>The charges relate to suspicious transfers connected to 1MDB. Banks with Malaysian exposure should strengthen EDD on PEPs, refresh adverse-media screening, and ensure continuous monitoring of high-risk relationships.</p>
+        <p class="src" role="note">Source: Reuters and Al Jazeera reporting (Aug 2018).</p>
+      </details>
+    </article>
+
+    <article id="maritime-dprk">
+      <span class="badge">Story 5</span>
+      <h3>U.S. Targets Russia–DPRK Maritime Sanctions Evasion</h3>
+      <p class="deck">21 Aug 2018: OFAC sanctions two Russian firms and six vessels over ship-to-ship transfers with North Korea; highlights maritime red flags.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>Signals include AIS gaps/disablement, frequent reflagging/name changes, and complex ownership. Trade finance and shipping-exposed institutions should deploy vessel due diligence, port/route risk analytics, and enhanced documentation checks.</p>
+        <p class="src" role="note">Source: U.S. Department of the Treasury — OFAC press release (21 Aug 2018).</p>
+      </details>
+    </article>
+
+    <article id="pdvsa-miami">
+      <span class="badge">Story 6</span>
+      <h3>Venezuela PDVSA: US$1.2bn Laundering Scheme</h3>
+      <p class="deck">Late Jul 2018: U.S. authorities charge conspirators with embezzling and laundering funds via layered transactions, Miami real estate, and sham investments.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>The case underscores gatekeeper risks in high-value real estate, the role of shell companies, and cross-border layering. Institutions should revalidate controls over private banking, real estate-linked payments, and high-risk professional intermediaries.</p>
+        <p class="src" role="note">Source: U.S. Department of Justice — S.D. Florida filings (Jul 2018).</p>
+      </details>
+    </article>
+
+    <section class="briefs" id="briefs">
+      <h3>Brief Mentions</h3>
+      <ul>
+        <li><strong>Iran Sanctions Snapback (7 Aug):</strong> U.S. re-imposes measures on autos, metals, currency, and sovereign debt under E.O. 13846.</li>
+        <li><strong>Basel AML Index 2018:</strong> Annual jurisdictional ML/TF risk rankings released by the Basel Institute.</li>
+        <li><strong>FCA “Dear CEO” (June):</strong> UK regulator warns on crypto-asset financial-crime risks; SAR expectations reiterated.</li>
+        <li><strong>Russia Cyber-Sanctions Evasion (21 Aug):</strong> OFAC designates entities/individuals linked to Divetechnoservices.</li>
+        <li><strong>EU–Russia CBW Act Sanctions (27 Aug):</strong> First chemical-weapons-related Russia measures implemented.</li>
+        <li><strong>EU/Iran Practitioner Briefings:</strong> Law-firm roundups (e.g., Covington, Gibson Dunn) summarise operational tensions for EU firms with Iran exposure.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <div class="credit">© 2018–2025 GLFC • Draft prepared for web presentation. This edition intentionally focuses on items published on or before 31 Aug 2018.</div>
+    </footer>
+  </main>
+</div>
+
+<script>
+  // Dark mode toggle
+  const root = document.documentElement;
+  const toggleBtn = document.getElementById('toggleThemeBtn');
+  const key = 'glfc-theme';
+  function setTheme(mode){ root.setAttribute('data-theme', mode); localStorage.setItem(key, mode); }
+  const saved = localStorage.getItem(key);
+  if(saved){ setTheme(saved); }
+  toggleBtn.addEventListener('click', ()=>{
+    const current = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    setTheme(current);
+  });
+
+  // Expand/collapse all details
+  const expandAllBtn = document.getElementById('expandAllBtn');
+  const collapseAllBtn = document.getElementById('collapseAllBtn');
+  const allDetails = () => Array.from(document.querySelectorAll('details'));
+  expandAllBtn.addEventListener('click', ()=> allDetails().forEach(d => d.open = true));
+  collapseAllBtn.addEventListener('click', ()=> allDetails().forEach(d => d.open = false));
+</script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GLFC AML/CFT/Fraud & Financial Crime Newsletter — June 2018</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#111827; --muted:#6b7280; --link:#0ea5e9;
+    --card:#f9fafb; --border:#e5e7eb; --accent:#0ea5e9;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--fg); background:var(--bg); line-height:1.6}
+  header{background:linear-gradient(120deg,#0ea5e9,#22c55e); color:#002b36; padding:2rem 1rem}
+  .wrap{max-width:1100px; margin:0 auto; display:grid; grid-template-columns:280px 1fr; gap:2rem; padding:1.5rem 1rem 3rem}
+  h1{margin:.25rem 0 0 0; font-size:1.8rem}
+  .kicker{letter-spacing:.14em; text-transform:uppercase; font-weight:700; opacity:.85; font-size:.9rem}
+  .meta{font-weight:600; margin-top:.35rem}
+  nav#toc{position:sticky; top:1rem; align-self:start; background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1rem}
+  nav#toc h2{margin:.25rem 0 1rem; font-size:1rem; letter-spacing:.06em; text-transform:uppercase; color:var(--muted)}
+  nav#toc ol{margin:0; padding-left:1.1rem}
+  nav#toc a{color:var(--link); text-decoration:none}
+  main article{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1rem 1.1rem; margin:0 0 1rem 0}
+  article h3{margin:.2rem 0 .25rem; font-size:1.2rem}
+  .deck{color:var(--muted); margin:.2rem 0 .6rem}
+  .src{font-size:.72rem; color:var(--muted); margin-top:.5rem}
+  .badge{display:inline-block; padding:.18rem .5rem; border-radius:.5rem; background:rgba(14,165,233,.1); border:1px solid rgba(14,165,233,.25); color:#0369a1; font-weight:700; font-size:.78rem; margin-right:.4rem}
+  details{border:1px dashed var(--border); border-radius:.6rem; padding:.6rem .8rem}
+  details[open]{border-style:solid}
+  details>summary{cursor:pointer; font-weight:700; color:var(--link); list-style:none}
+  .briefs ul{margin:.2rem 0 0; padding-left:1.1rem}
+  footer{margin-top:1rem; padding-top:1rem; border-top:1px solid var(--border); color:var(--muted); font-size:.9rem}
+  .bar{display:flex; gap:.5rem; flex-wrap:wrap; margin-top:.75rem}
+  .btn{border:1px solid rgba(0,0,0,.1); background:#fff; color:#111; padding:.42rem .7rem; border-radius:.5rem; font-weight:600; cursor:pointer}
+  @media (max-width:960px){ .wrap{grid-template-columns:1fr} nav#toc{position:relative} }
+  @media print{ nav#toc,.bar{display:none} main article{break-inside:avoid-page} body{color:#000} }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap" style="grid-template-columns:1fr">
+    <div>
+      <div class="kicker">GLFC AML/CFT • Fraud & Financial Crime</div>
+      <h1>Monthly Newsletter — June 2018</h1>
+      <div class="meta">Prepared by Lawrence S. Grant‑Lapre • Period covered: ≤ 31 May 2018</div>
+      <div class="bar">
+        <button class="btn" id="expandAllBtn">＋ Expand all</button>
+        <button class="btn" id="collapseAllBtn">－ Collapse all</button>
+        <button class="btn" onclick="window.print()">🖨️ Print / Save PDF</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav id="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#insight-screening">INSIGHT — Challenges with Screening Lists</a></li>
+      <li><a href="#story1-sec-bd-cco">STORY 1 — SEC Charges Broker‑Dealers & CCO for AML Failures</a></li>
+      <li><a href="#story2-iran-jcpoa">STORY 2 — U.S. Withdrawal from JCPOA & Wind‑downs</a></li>
+      <li><a href="#story3-5amld-council">STORY 3 — EU Council Formally Adopts 5AMLD</a></li>
+      <li><a href="#story4-uk-samla">STORY 4 — UK SAMLA 2018 Receives Royal Assent</a></li>
+      <li><a href="#story5-sec-titanium">STORY 5 — SEC Halts Titanium Blockchain ICO</a></li>
+      <li><a href="#story6-ofac-hezbollah">STORY 6 — OFAC Sanctions Hezbollah Network</a></li>
+      <li><a href="#story7-fincen-gtos">STORY 7 — FinCEN Extends Real Estate GTOs</a></li>
+      <li><a href="#story8-eu-tax-blacklist">STORY 8 — EU Removes Two Jurisdictions from Tax Blacklist</a></li>
+      <li><a href="#briefs">Brief Mentions</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <article id="insight-screening">
+      <span class="badge">Insight</span>
+      <h3>Challenges with Screening Lists</h3>
+      <p class="deck">False positives, data quality and outdated lists strain AML screening; AI/ML and better governance can help.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>Financial institutions continue to struggle with the efficiency and effectiveness of their sanctions and PEP screening systems. In recent years, U.S. regulators have imposed over <strong>USD 15&nbsp;billion</strong> in fines for sanctions‑related violations, while global compliance costs have surpassed <strong>USD 280&nbsp;billion</strong>. Yet, studies show that more than <strong>90% of alerts</strong> generated are false positives, consuming resources and delaying investigations. Institutions often face challenges such as duplicate or inconsistent customer records, over‑reliance on a single vendor, and outdated or inflexible lists. Screening must encompass a wide range of sources: <strong>UN Sanctions, OFAC SDN, UK HMT, EU, Canadian OSFI, Australian lists, U.S. BIS</strong>, and <strong>State Department non‑proliferation lists</strong>. Increasingly, firms are exploring artificial intelligence and machine learning to reduce noise and focus on high‑value alerts. For AML compliance officers, improving data quality, governance, and system tuning is critical to balancing effectiveness with efficiency.</p>
+        <p class="src">Source: AML Newsletter Insight Article, Jun 2018 edition.</p>
+      </details>
+    </article>
+
+    <article id="story1-sec-bd-cco">
+      <span class="badge">Story 1</span>
+      <h3>SEC Charges Broker‑Dealers & CCO for AML Failures</h3>
+      <p class="deck">Chardan & ICBCFS cited for not filing SARs on penny stocks; CCO barred and fined.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>16 May 2018</strong>, the <strong>U.S. Securities and Exchange Commission (SEC)</strong> announced enforcement actions against <strong>Chardan Capital Markets LLC</strong> and <strong>Industrial and Commercial Bank of China Financial Services (ICBCFS)</strong> for failing to file suspicious activity reports on penny stock transactions. The firms cleared and executed trades in low‑priced securities that bore multiple red flags, yet no SARs were filed. The SEC also sanctioned <strong>Jerard Basmagy</strong>, the Chief Compliance Officer and AML officer of Chardan, for “willfully aiding and abetting” violations. Basmagy agreed to a <strong>USD 15,000 penalty</strong> and a <strong>three‑year industry bar</strong>. The case underscores regulators’ expectations that broker‑dealers act as effective gatekeepers, ensuring AML programs identify and report unusual activity. For compliance officers, it reinforces the importance of independent oversight, escalation protocols, and a culture of accountability within both introducing and clearing firms.</p>
+        <p class="src">Source: SEC press release, 16 May 2018.</p>
+      </details>
+    </article>
+
+    <article id="story2-iran-jcpoa">
+      <span class="badge">Story 2</span>
+      <h3>U.S. Withdrawal from JCPOA & Wind‑downs</h3>
+      <p class="deck">8 May: U.S. exits Iran deal; OFAC sets 90/180‑day wind‑downs and snap‑back of secondary sanctions.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>8 May 2018</strong>, President Trump announced the U.S. withdrawal from the <strong>Joint Comprehensive Plan of Action (JCPOA)</strong>. The <strong>U.S. Treasury’s OFAC</strong> immediately issued guidance establishing <strong>90‑day and 180‑day wind‑down periods</strong> for activities previously permitted. At the end of these periods, U.S. secondary sanctions targeting Iran’s energy, financial, shipping, and insurance sectors would snap back into place. OFAC also withdrew general licenses covering aircraft and automobile sales, among other sectors. For financial institutions, the return of broad secondary sanctions revived risk exposures across trade finance, correspondent banking, and insurance markets. Non‑U.S. banks with Iranian exposure faced a stark choice between continuing activity with Iran and preserving U.S. market access. Compliance officers were urged to review sanctions‑screening protocols, update risk assessments, and communicate proactively with clients about wind‑down obligations.</p>
+        <p class="src">Source: White House Statement & OFAC FAQs, 8 May 2018.</p>
+      </details>
+    </article>
+
+    <article id="story3-5amld-council">
+      <span class="badge">Story 3</span>
+      <h3>EU Council Formally Adopts 5AMLD</h3>
+      <p class="deck">14 May: Council signs off on 5AMLD — BO transparency, account registries, VASPs in scope.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>14 May 2018</strong>, the <strong>Council of the European Union</strong> formally adopted the <strong>Fifth Anti‑Money Laundering Directive (5AMLD)</strong>, completing the legislative process after Parliament’s April approval. 5AMLD requires member states to expand <strong>public access to beneficial ownership registers</strong>, establish <strong>centralised bank and payment account registries</strong>, and bring <strong>virtual‑currency exchanges and custodian wallet providers</strong> into scope for AML obligations. It also reduces prepaid card thresholds, strengthens enhanced due diligence on high‑risk countries, and improves cooperation between financial intelligence units (FIUs). The Directive entered into force in July 2018, with national transposition deadlines set for 2020. For AML compliance officers, 5AMLD provided a clear legislative mandate to review customer‑due‑diligence policies, adapt onboarding for crypto‑asset exposures, and prepare for greater transparency around beneficial ownership.</p>
+        <p class="src">Source: Council of the EU press release, 14 May 2018.</p>
+      </details>
+    </article>
+
+    <article id="story4-uk-samla">
+      <span class="badge">Story 4</span>
+      <h3>UK SAMLA 2018 Receives Royal Assent</h3>
+      <p class="deck">23 May: UK gains autonomous sanctions/AML powers; Overseas Territories BO transparency debated.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>23 May 2018</strong>, the <strong>Sanctions and Anti‑Money Laundering Act (SAMLA) 2018</strong> received <strong>Royal Assent</strong>, providing the UK with a domestic legal framework for sanctions and AML measures after Brexit. The Act enables ministers to impose autonomous UK sanctions, update AML regulations, and enhance information‑sharing powers. One of the most contentious elements was Parliament’s push for greater <strong>beneficial ownership transparency</strong> in the UK <strong>Overseas Territories</strong>, with MPs requiring public registers of company ownership by 2020. For firms, SAMLA represented a fundamental shift in sanctions compliance obligations: institutions had to anticipate divergence from EU listings and prepare for independent UK enforcement. For AML compliance officers, the Act highlighted the importance of horizon scanning and adapting group frameworks to cover parallel U.S., EU, and UK regimes.</p>
+        <p class="src">Source: UK Parliament, Royal Assent of SAMLA, 23 May 2018.</p>
+      </details>
+    </article>
+
+    <article id="story5-sec-titanium">
+      <span class="badge">Story 5</span>
+      <h3>SEC Halts Titanium Blockchain ICO</h3>
+      <p class="deck">30 May: SEC freezes assets, appoints receiver, cites false partnership claims.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>30 May 2018</strong>, the <strong>SEC</strong> obtained an emergency court order halting the <strong>Titanium Blockchain Infrastructure Services ICO</strong>, which had raised more than <strong>USD 21&nbsp;million</strong> from investors worldwide. The SEC alleged founder Michael Stollery engaged in fraud by making false claims about partnerships with major U.S. companies and government agencies. A receiver was appointed, assets were frozen, and civil charges filed. The case highlighted the regulator’s ongoing crackdown on fraudulent ICOs and the expectation that digital‑asset promotions meet securities‑law and AML obligations. For AML compliance teams, the enforcement underscored the risks of onboarding ICO issuers and investors without robust due diligence. It also reminded financial institutions of the importance of monitoring crypto‑related flows for potential fraud, sanctions violations, or unregistered securities activity.</p>
+        <p class="src">Source: SEC litigation release, 30 May 2018.</p>
+      </details>
+    </article>
+
+    <article id="story6-ofac-hezbollah">
+      <span class="badge">Story 6</span>
+      <h3>OFAC Sanctions Hezbollah Network</h3>
+      <p class="deck">16–17 May: OFAC targets senior leaders/financiers; TFTC partners coordinate actions.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>16–17 May 2018</strong>, the <strong>U.S. Treasury’s OFAC</strong> designated several senior <strong>Hezbollah</strong> leaders and facilitators, including financier <strong>Mohammad Bazzi</strong>, along with entities tied to Iran’s Islamic Revolutionary Guard Corps‑Quds Force. The measures aimed to disrupt Hezbollah’s access to global financial networks and highlighted the group’s reliance on commercial activities in Lebanon and West Africa. These actions followed the re‑imposition of Iran sanctions and were coordinated with partners in the <strong>Terrorist Financing Targeting Center (TFTC)</strong>. For financial institutions, the designations demanded immediate updates to sanctions‑screening tools, careful monitoring of correspondent relationships, and heightened attention to payments or trade finance involving Lebanon, West Africa, or sectors known for Hezbollah activity.</p>
+        <p class="src">Source: U.S. Department of the Treasury press release, 16–17 May 2018.</p>
+      </details>
+    </article>
+
+    <article id="story7-fincen-gtos">
+      <span class="badge">Story 7</span>
+      <h3>FinCEN Extends Real Estate GTOs</h3>
+      <p class="deck">Late May: GTOs continue for all‑cash luxury residential purchases via title insurers.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>In <strong>late May 2018</strong>, <strong>FinCEN</strong> extended its <strong>Geographic Targeting Orders (GTOs)</strong> requiring title insurers to report all‑cash purchases of luxury residential real estate above certain thresholds in major U.S. metropolitan areas. The program, originally launched in 2016, aims to identify shell companies used to launder illicit funds through high‑value property acquisitions. The renewal continued coverage of markets such as <strong>New York, Miami, Los Angeles, San Francisco, and Honolulu</strong>, with reporting thresholds ranging from USD 300,000 to USD 3 million. For compliance officers, the extension reinforced real estate as a high‑risk sector for money laundering, particularly involving politically exposed persons (PEPs) and foreign beneficial owners. Institutions financing property transactions or interacting with title companies were reminded to incorporate real estate exposure into risk assessments.</p>
+        <p class="src">Source: FinCEN GTO extension notice, May 2018.</p>
+      </details>
+    </article>
+
+    <article id="story8-eu-tax-blacklist">
+      <span class="badge">Story 8</span>
+      <h3>EU Removes Two Jurisdictions from Tax Blacklist</h3>
+      <p class="deck">25 May: Bahamas and St Kitts &amp; Nevis delisted after commitments to reforms.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>25 May 2018</strong>, the <strong>Council of the EU</strong> announced the removal of <strong>The Bahamas</strong> and <strong>St Kitts &amp; Nevis</strong> from its list of non‑cooperative tax jurisdictions, following commitments to improve tax transparency and implement reforms. The update left seven jurisdictions on the blacklist, with several others placed on the “grey list” for monitoring. While not formally an AML tool, the EU list is increasingly used by financial institutions as a complementary factor in <strong>customer risk assessments</strong> and <strong>enhanced due diligence</strong>. For AML compliance officers, the removal of these two jurisdictions provided some relief for correspondent banking and trade finance relationships but underscored the dynamic nature of tax‑good‑governance risk. Monitoring such changes remains critical for updating internal country risk ratings and client due diligence policies.</p>
+        <p class="src">Source: Council of the EU press release, 25 May 2018.</p>
+      </details>
+    </article>
+
+    <article class="briefs" id="briefs">
+      <span class="badge">Brief Mentions</span>
+      <h3>Other May 2018 items to note</h3>
+      <ul>
+        <li><strong>EU ‘Blocking Statute’ process (17–18 May):</strong> Commission advances measures to shield EU firms from U.S. secondary Iran sanctions.</li>
+        <li><strong>CFATF update — Haiti (31 May):</strong> Haiti removed from ICRG monitoring process.</li>
+        <li><strong>FinCEN CDD Rule go‑live (11 May):</strong> Beneficial ownership requirements fully enforceable.</li>
+      </ul>
+    </article>
+
+    <footer>© 2018–2025 GLFC • This edition intentionally covers items published on or before 31 May 2018.</footer>
+  </main>
+</div>
+
+<script>
+  // Expand/collapse all story extracts
+  const expandAllBtn = document.getElementById('expandAllBtn');
+  const collapseAllBtn = document.getElementById('collapseAllBtn');
+  const allDetails = () => Array.from(document.querySelectorAll('details'));
+  expandAllBtn.addEventListener('click', ()=> allDetails().forEach(d => d.open = true));
+  collapseAllBtn.addEventListener('click', ()=> allDetails().forEach(d => d.open = false));
+</script>
+</body>
+</html>

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GLFC AML/CFT/Fraud & Financial Crime Newsletter — March 2018</title>
+<style>
+  :root{
+    --bg:#ffffff;
+    --fg:#0f172a;
+    --muted:#475569;
+    --accent:#0ea5e9;
+    --accent-2:#22c55e;
+    --card:#f8fafc;
+    --border:#e2e8f0;
+    --link:#0369a1;
+  }
+  [data-theme="dark"]{
+    --bg:#0b1020;
+    --fg:#e5e7eb;
+    --muted:#9aa1b2;
+    --accent:#38bdf8;
+    --accent-2:#22d3ee;
+    --card:#11172a;
+    --border:#1f2a44;
+    --link:#7dd3fc;
+  }
+  html,body{height:100%}
+  body{
+    margin:0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    background:var(--bg);
+    color:var(--fg);
+    line-height:1.6;
+  }
+  .container{
+    max-width:1100px;
+    margin:0 auto;
+    padding:2rem 1rem 5rem;
+    display:grid;
+    grid-template-columns: 290px 1fr;
+    gap:2rem;
+  }
+  header.hero{
+    background: linear-gradient(120deg, var(--accent), var(--accent-2));
+    color:#00111a;
+    padding:2.25rem 1rem;
+  }
+  .hero-inner{
+    max-width:1100px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:1rem;
+  }
+  .brand{
+    display:flex;
+    flex-direction:column;
+    gap:.25rem;
+  }
+  .brand .kicker{
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    font-weight:600;
+    opacity:.85;
+    font-size:.9rem;
+  }
+  .brand h1{
+    margin:.1rem 0 0 0;
+    font-size:1.75rem;
+    line-height:1.2;
+  }
+  .meta{
+    text-align:right;
+    font-size:.95rem;
+    font-weight:600;
+  }
+  .toolbar{
+    display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; margin-top:.75rem;
+  }
+  .btn{
+    border:1px solid rgba(0,0,0,.1);
+    background:#ffffffbd;
+    color:#0b1020;
+    padding:.45rem .75rem;
+    border-radius:.6rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:.2s ease;
+  }
+  .btn:hover{ transform:translateY(-1px) }
+  .btn.outline{ background:transparent; border-color:#ffffff; color:#fff }
+  .btn.ghost{ background:transparent; color:#00111a; border-color:rgba(0,0,0,.15)}
+  nav.toc{
+    position:sticky; top:1rem;
+    align-self:start;
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:1rem;
+    padding:1rem;
+  }
+  nav.toc h2{
+    margin:.25rem 0 1rem 0;
+    font-size:1rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);
+  }
+  nav.toc ol{ margin:0; padding-left:1rem }
+  nav.toc li{ margin:.4rem 0; }
+  nav.toc a{ color:var(--link); text-decoration:none }
+  main article{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius: 1rem;
+    padding:1.25rem 1.25rem;
+    margin-bottom:1rem;
+  }
+  article h3{
+    margin:.2rem 0 .35rem;
+    font-size:1.25rem;
+  }
+  .deck{
+    color:var(--muted);
+    margin:.25rem 0 1rem;
+  }
+  details{
+    background:transparent;
+    border:1px dashed var(--border);
+    border-radius:.75rem;
+    padding:.6rem .8rem;
+  }
+  details > summary{
+    list-style:none;
+    cursor:pointer;
+    font-weight:700;
+    color:var(--link);
+  }
+  details[open]{ border-style:solid }
+  .briefs{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:1rem;
+    padding:1rem 1.25rem;
+  }
+  .briefs h3{ margin-top:0 }
+  .briefs ul{ margin:0; padding-left:1.1rem }
+  .credit{
+    font-size:.9rem; color:var(--muted);
+  }
+  .src{font-size:.72rem;color:var(--muted);margin:.35rem 0 0}
+  footer{
+    margin-top:2rem; padding-top:1rem;
+    border-top:1px solid var(--border);
+    color:var(--muted);
+  }
+  .badge{
+    display:inline-block; padding:.22rem .55rem; border-radius:.5rem; background:rgba(2,132,199,.12); color:#0369a1; font-weight:700; font-size:.8rem;
+    border:1px solid rgba(2,132,199,.25);
+    margin-right:.4rem;
+  }
+  .controls{ display:flex; gap:.5rem; flex-wrap:wrap; margin:.5rem 0 1rem }
+  .muted{ color:var(--muted) }
+  .callout{
+    background:linear-gradient(180deg, rgba(2,132,199,.08), transparent);
+    border:1px solid var(--border);
+    border-radius:.8rem;
+    padding: .75rem 1rem;
+  }
+  @media (max-width: 960px){
+    .container{ grid-template-columns: 1fr }
+    .meta{ text-align:left }
+    nav.toc{ position:relative }
+  }
+  @media print{
+    .toolbar, nav.toc, .controls { display:none !important }
+    body{ background:#fff; color:#000 }
+    main article, .briefs{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brand">
+      <div class="kicker">GLFC AML/CFT • Fraud & Financial Crime</div>
+      <h1>Monthly Newsletter — March 2018</h1>
+      <div class="toolbar">
+        <button class="btn" id="toggleThemeBtn" title="Toggle dark mode">🌓 Theme</button>
+        <button class="btn ghost" id="expandAllBtn" title="Expand all story details">＋ Expand all</button>
+        <button class="btn ghost" id="collapseAllBtn" title="Collapse all story details">－ Collapse all</button>
+        <button class="btn outline" onclick="window.print()" title="Print or Save to PDF">🖨️ Print / Save PDF</button>
+      </div>
+    </div>
+    <div class="meta">
+      <div><strong>Prepared by:</strong> Lawrence S. Grant-Lapre, CAMS, CAMS-Audit</div>
+      <div><strong>Period covered:</strong> Items published on/before <em>28 Feb 2018</em></div>
+      <div class="muted">Audience: AML/FC compliance officers</div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <nav class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#insight-dce-au">INSIGHT — Digital Currency Exchanges to be Regulated (Australia)</a></li>
+      <li><a href="#issues-5amld">ISSUES — What is AMLD 5?</a></li>
+      <li><a href="#story2-fatf">STORY 2 — FATF Plenary Outcomes (Feb 2018)</a></li>
+      <li><a href="#story3-pnb">STORY 3 — Punjab National Bank Fraud Exposed</a></li>
+      <li><a href="#story4-usbank-dpa">STORY 4 — U.S. Bank N.A. Deferred Prosecution Agreement</a></li>
+      <li><a href="#story5-rabobank">STORY 5 — Rabobank N.A. Pleads Guilty, $368m Forfeiture</a></li>
+      <li><a href="#story6-dprk-shipping">STORY 6 — Largest‑Ever U.S. Sanctions on DPRK Shipping</a></li>
+      <li><a href="#story7-uwos">STORY 7 — UK Issues First Unexplained Wealth Orders</a></li>
+      <li><a href="#story8-finma">STORY 8 — FINMA Sanctions Gazprombank Switzerland & PKB</a></li>
+      <li><a href="#story9-latvia-cb">STORY 9 — Latvia’s Central Bank Governor Detained</a></li>
+      <li><a href="#briefs">Brief Mentions</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <article id="insight-dce-au">
+      <span class="badge">Insight</span>
+      <h3>Digital Currency Exchanges to be Regulated in Australia</h3>
+      <p class="deck">From 3 Apr 2018, DCEs come under the AML/CTF Act: registration with AUSTRAC, CDD, reporting, and record‑keeping.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>From <strong>3 April 2018</strong>, <strong>Digital Currency Exchange (DCE)</strong> service providers became subject to Australia’s <strong>AML/CTF Act</strong> following passage of the <strong>AML/CTF Amendment Act 2017</strong>. This reform addressed growing financial‑crime risks in the crypto‑asset sector. DCEs must <strong>register with AUSTRAC</strong>, conduct <strong>customer identification and verification</strong>, adopt written AML/CTF programs, file <strong>suspicious matter reports</strong> and <strong>threshold transaction reports</strong> (cash ≥ AUD 10,000), and maintain records for seven years. Police clearances are mandated for key personnel. At the time, numerous Australian exchanges (ACX, BTC Markets, CoinJar, CoinTree) and international players serving Australian clients (Coinbase, TransferWise, OFX) prepared compliance frameworks rapidly. For AML officers, this marked a shift from voluntary measures to enforceable obligations, placing Australia among early jurisdictions to regulate digital currencies formally under AML law.</p>
+        <p class="src" role="note">Source: AUSTRAC guidance; AML/CTF Amendment Act 2017; Royal Assent 13 Dec 2017.</p>
+      </details>
+    </article>
+
+    <article id="issues-5amld">
+      <span class="badge">Issues</span>
+      <h3>What is AMLD 5?</h3>
+      <p class="deck">EU’s 5AMLD expands BO transparency, FIU powers, high‑risk country safeguards, and brings VASPs/prepaid into scope.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>20 December 2017</strong>, the <strong>European Parliament and Council</strong> reached agreement on the <strong>5th Anti‑Money Laundering Directive (5AMLD)</strong>, a major step in the EU’s fight against financial crime. 5AMLD requires greater public access to <strong>beneficial ownership registers</strong>, extends the powers of <strong>Financial Intelligence Units</strong>, and imposes stricter safeguards for transactions linked to <strong>high‑risk countries</strong>. It also targets emerging risks by bringing <strong>virtual currency exchanges</strong> and <strong>custodian wallet providers</strong> into scope and lowering identification thresholds for <strong>anonymous prepaid cards</strong>. Implementation timelines set for 2019 required member states to transpose provisions into national law. For AML compliance officers, 5AMLD highlighted the urgency of updating CDD processes, expanding oversight of VASPs, and monitoring cross‑border flows linked to high‑risk jurisdictions.</p>
+        <p class="src" role="note">Source: European Parliament & Council agreement on 5AMLD, 20 Dec 2017.</p>
+      </details>
+    </article>
+
+    <article id="story2-fatf">
+      <span class="badge">Story 2</span>
+      <h3>FATF Plenary Outcomes (Paris, Feb 2018)</h3>
+      <p class="deck">DPRK & Iran remain highest risk; monitoring lists and emerging TF risks reaffirmed at Paris plenary.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>At its <strong>21–23 February 2018</strong> plenary in Paris, the <strong>Financial Action Task Force (FATF)</strong> reaffirmed that <strong>North Korea and Iran</strong> remain subject to the highest levels of countermeasures and called on members to apply enhanced due diligence. FATF also continued monitoring of jurisdictions such as Ethiopia, Sri Lanka, Syria, Trinidad &amp; Tobago, Tunisia, and Yemen, while acknowledging progress in some cases. The meeting emphasized emerging terrorist financing risks, improvements in beneficial ownership frameworks, and sectoral guidance. For AML teams, the plenary meant immediate updates to risk assessments and screening lists. Firms were advised to check customer exposure to high‑risk jurisdictions and enhance correspondent‑banking controls, while tracking forthcoming FATF work on virtual assets.</p>
+        <p class="src" role="note">Source: FATF Plenary Outcomes, Paris, 23 Feb 2018.</p>
+      </details>
+    </article>
+
+    <article id="story3-pnb">
+      <span class="badge">Story 3</span>
+      <h3>Punjab National Bank Fraud Exposed</h3>
+      <p class="deck">PNB discloses >$1.7bn LoU fraud tied to Nirav Modi/Mehul Choksi; serious control gaps in trade finance and SWIFT use.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>14 February 2018</strong>, <strong>Punjab National Bank (PNB)</strong> disclosed a massive fraud involving unauthorized <strong>letters of undertaking (LoUs)</strong>, later estimated at over <strong>$1.7 billion</strong>. Rogue staff allegedly issued LoUs via SWIFT, enabling companies linked to jeweler <strong>Nirav Modi</strong> and <strong>Mehul Choksi</strong> to obtain overseas credit. The fraud bypassed PNB’s core banking system, exposing serious internal control gaps. Indian authorities opened investigations, while international confirming banks faced questions on reliance on PNB guarantees. For AML professionals, the scandal highlights vulnerabilities in trade finance, especially when manual processes circumvent automated monitoring. Programs should stress‑test LoU controls, ensure segregation of duties in SWIFT operations, and reinforce scrutiny on high‑value clients in sectors vulnerable to corruption and fraud.</p>
+        <p class="src" role="note">Source: Reserve Bank of India; PNB filings; Indian press (Feb 2018).</p>
+      </details>
+    </article>
+
+    <article id="story4-usbank-dpa">
+      <span class="badge">Story 4</span>
+      <h3>U.S. Bank N.A. Deferred Prosecution Agreement</h3>
+      <p class="deck">DOJ DPA; forfeiture $528m; parallel FinCEN/OCC/Fed penalties over alert‑capping and missed SARs.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>15 February 2018</strong>, the <strong>U.S. Department of Justice</strong> announced a <strong>deferred prosecution agreement (DPA)</strong> with <strong>U.S. Bank N.A.</strong> for willful BSA/AML violations. The bank admitted capping the number of transaction‑monitoring alerts its systems could generate, leading to missed suspicious activity reports (SARs). It agreed to forfeit <strong>$528 million</strong>, while parallel actions imposed penalties of $185m (FinCEN), $75m (OCC), and $15m (Federal Reserve). Regulators highlighted failures to staff compliance adequately and to escalate issues transparently. For AML teams, the case reinforces the risks of resource constraints, poor model governance, and misaligned incentives. Alert thresholds must be based on risk, not convenience, and supervisors must be kept apprised of known gaps.</p>
+        <p class="src" role="note">Source: DOJ press release; FinCEN, OCC, Federal Reserve orders, 15 Feb 2018.</p>
+      </details>
+    </article>
+
+    <article id="story5-rabobank">
+      <span class="badge">Story 5</span>
+      <h3>Rabobank N.A. Pleads Guilty, $368m Forfeiture</h3>
+      <p class="deck">Bank admits conspiracy to impair OCC supervision; cross‑border cash/MSB flows at the U.S.–Mexico border in focus.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>7 February 2018</strong>, <strong>Rabobank N.A.</strong>, a California subsidiary of the Dutch group, pleaded guilty to conspiring to obstruct the <strong>Office of the Comptroller of the Currency (OCC)</strong> by concealing AML deficiencies. The bank admitted to failures in monitoring high‑risk transactions linked to Mexico‑border cash flows and MSBs, and to withholding information during OCC exams. The plea agreement required <strong>$368 million</strong> in forfeiture plus a $50m OCC penalty. U.S. prosecutors underscored the seriousness of misleading regulators, especially where cross‑border risks are high. For AML professionals, Rabobank illustrates the importance of candid regulatory engagement, robust monitoring of geographic risks, and governance around correspondent and MSB relationships.</p>
+        <p class="src" role="note">Source: DOJ plea agreement; OCC enforcement action, 7 Feb 2018.</p>
+      </details>
+    </article>
+
+    <article id="story6-dprk-shipping">
+      <span class="badge">Story 6</span>
+      <h3>Largest‑Ever U.S. Sanctions on North Korea Shipping</h3>
+      <p class="deck">OFAC targets 27 companies and 28 vessels; maritime advisory details deceptive practices and risk indicators.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>23 February 2018</strong>, the <strong>U.S. Treasury</strong> announced what it called the “largest ever” sanctions package against <strong>North Korea</strong>, targeting 27 shipping companies and 28 vessels involved in evasion schemes. In parallel, Treasury, State, and the U.S. Coast Guard issued a <strong>maritime advisory</strong> outlining deceptive practices such as ship‑to‑ship transfers, flag‑hopping, and disabling AIS trackers. The measures sought to curb DPRK’s ability to fund its nuclear program through illicit maritime trade. For compliance teams, the package underscored the need to expand sanctions‑screening to vessel identifiers, monitor trade‑finance transactions for hidden links to shipping, and incorporate maritime risk into AML frameworks. Institutions supporting global shipping and commodities trade should scrutinize vessel ownership and counterparties more closely.</p>
+        <p class="src" role="note">Source: U.S. Treasury press release; DPRK Maritime Advisory, 23 Feb 2018.</p>
+      </details>
+    </article>
+
+    <article id="story7-uwos">
+      <span class="badge">Story 7</span>
+      <h3>UK Issues First Unexplained Wealth Orders</h3>
+      <p class="deck">New investigative tool under the Criminal Finances Act 2017 targets suspected illicit wealth holdings.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>28 February 2018</strong>, UK authorities confirmed the first use of <strong>Unexplained Wealth Orders (UWOs)</strong>, introduced by the <strong>Criminal Finances Act 2017</strong>. The orders target assets suspected to have been acquired with illicit funds, requiring owners to explain the source of wealth. While details of the individuals involved were not disclosed, the National Crime Agency signalled UWOs would focus on politically exposed persons (PEPs) and individuals linked to serious crime. For financial institutions, UWOs highlight regulators’ increasing reliance on asset‑based measures to disrupt illicit finance. AML officers should prepare for more frequent source‑of‑wealth queries, ensure high‑value customer files are up to date, and consider reputational‑risk assessments for clients in corruption‑prone sectors.</p>
+        <p class="src" role="note">Source: UK National Crime Agency; Home Office statement, 28 Feb 2018.</p>
+      </details>
+    </article>
+
+    <article id="story8-finma">
+      <span class="badge">Story 8</span>
+      <h3>FINMA Sanctions Gazprombank Switzerland & PKB</h3>
+      <p class="deck">Swiss regulator bars new private clients at Gazprombank Switzerland; concludes PKB case for KYC/STR failings.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>1 February 2018</strong>, Swiss regulator <strong>FINMA</strong> announced enforcement against <strong>Gazprombank Switzerland</strong> for serious AML breaches between 2006 and 2016. The bank was barred from taking on new private clients until controls were strengthened. Failures included inadequate due diligence on higher‑risk clients and weak suspicious‑transaction reporting. In a parallel case, FINMA concluded proceedings against <strong>PKB Privatbank</strong> for similar lapses in monitoring and KYC. Both cases illustrated persistent weaknesses in private‑banking controls, particularly with complex structures and clients from high‑risk geographies. For compliance teams, the sanctions underscore FINMA’s intolerance of sustained deficiencies and willingness to impose business restrictions. Private‑banking programs should review PEP onboarding, monitoring thresholds, and escalation procedures.</p>
+        <p class="src" role="note">Source: FINMA enforcement decisions, 1 Feb 2018.</p>
+      </details>
+    </article>
+
+    <article id="story9-latvia-cb">
+      <span class="badge">Story 9</span>
+      <h3>Latvia’s Central Bank Governor Detained</h3>
+      <p class="deck">Anti‑corruption bureau detains Ilmārs Rimšēvičs amid separate ABLV turmoil; governance/ML concerns intersect.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>On <strong>18 February 2018</strong>, Latvia’s anti‑corruption bureau detained <strong>Ilmārs Rimšēvičs</strong>, the governor of the central bank and member of the <strong>ECB Governing Council</strong>, on bribery allegations. The arrest came amid turmoil surrounding <strong>ABLV Bank</strong>, which had been hit by a U.S. FinCEN 311 action days earlier. Though separate cases, the developments raised concerns about governance, political integrity, and AML oversight in Latvia’s financial system. The ECB confirmed Rimšēvičs could not participate in monetary policy decisions while under investigation. For compliance officers, the episode highlighted how governance and AML concerns can intersect, particularly in smaller jurisdictions exposed to non‑resident flows. Institutions with Baltic exposure should reassess reputational risk and country‑risk assumptions.</p>
+        <p class="src" role="note">Source: Latvian anti‑corruption bureau; international media reports, Feb 2018.</p>
+      </details>
+    </article>
+
+    <section class="briefs" id="briefs">
+      <h3>Brief Mentions</h3>
+      <ul>
+        <li><strong>Pakistan grey‑listing (FATF decision, 23 Feb):</strong> Members agreed to re‑list Pakistan, effective June 2018.</li>
+        <li><strong>SEC/CFTC Senate testimony (6 Feb):</strong> U.S. regulators set out expectations on virtual currencies, ICOs and market integrity.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <div class="credit">© 2018–2025 GLFC • Draft prepared for web presentation. This edition intentionally focuses on items published on or before 28 Feb 2018.</div>
+    </footer>
+  </main>
+</div>
+
+<script>
+  // Dark mode toggle
+  const root = document.documentElement;
+  const toggleBtn = document.getElementById('toggleThemeBtn');
+  const key = 'glfc-theme';
+  function setTheme(mode){ root.setAttribute('data-theme', mode); localStorage.setItem(key, mode); }
+  const saved = localStorage.getItem(key);
+  if(saved){ setTheme(saved); }
+  toggleBtn.addEventListener('click', ()=>{
+    const current = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    setTheme(current);
+  });
+
+  // Expand/collapse all details
+  const expandAllBtn = document.getElementById('expandAllBtn');
+  const collapseAllBtn = document.getElementById('collapseAllBtn');
+  const allDetails = () => Array.from(document.querySelectorAll('details'));
+  expandAllBtn.addEventListener('click', ()=> allDetails().forEach(d => d.open = true));
+  collapseAllBtn.addEventListener('click', ()=> allDetails().forEach(d => d.open = false));
+</script>
+</body>
+</html>

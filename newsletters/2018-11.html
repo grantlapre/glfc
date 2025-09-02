@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GLFC AML/CFT/Fraud & Financial Crime Newsletter — November 2019</title>
+<style>
+  :root{
+    --bg:#ffffff;
+    --fg:#0f172a;
+    --muted:#475569;
+    --accent:#0ea5e9;
+    --accent-2:#22c55e;
+    --card:#f8fafc;
+    --border:#e2e8f0;
+    --link:#0369a1;
+  }
+  [data-theme="dark"]{
+    --bg:#0b1020;
+    --fg:#e5e7eb;
+    --muted:#9aa1b2;
+    --accent:#38bdf8;
+    --accent-2:#22d3ee;
+    --card:#11172a;
+    --border:#1f2a44;
+    --link:#7dd3fc;
+  }
+  html,body{height:100%}
+  body{
+    margin:0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    background:var(--bg);
+    color:var(--fg);
+    line-height:1.6;
+  }
+  .container{
+    max-width:1100px;
+    margin:0 auto;
+    padding:2rem 1rem 5rem;
+    display:grid;
+    grid-template-columns: 290px 1fr;
+    gap:2rem;
+  }
+  header.hero{
+    background: linear-gradient(120deg, var(--accent), var(--accent-2));
+    color:#00111a;
+    padding:2.25rem 1rem;
+  }
+  .hero-inner{
+    max-width:1100px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:1rem;
+  }
+  .brand{
+    display:flex;
+    flex-direction:column;
+    gap:.25rem;
+  }
+  .brand .kicker{
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    font-weight:600;
+    opacity:.85;
+    font-size:.9rem;
+  }
+  .brand h1{
+    margin:.1rem 0 0 0;
+    font-size:1.75rem;
+    line-height:1.2;
+  }
+  .meta{
+    text-align:right;
+    font-size:.95rem;
+    font-weight:600;
+  }
+  .toolbar{
+    display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; margin-top:.75rem;
+  }
+  .btn{
+    border:1px solid rgba(0,0,0,.1);
+    background:#ffffffbd;
+    color:#0b1020;
+    padding:.45rem .75rem;
+    border-radius:.6rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:.2s ease;
+  }
+  .btn:hover{ transform:translateY(-1px) }
+  .btn.outline{ background:transparent; border-color:#ffffff; color:#fff }
+  .btn.ghost{ background:transparent; color:#00111a; border-color:rgba(0,0,0,.15)}
+  nav.toc{
+    position:sticky; top:1rem;
+    align-self:start;
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:1rem;
+    padding:1rem;
+  }
+  nav.toc h2{
+    margin:.25rem 0 1rem 0;
+    font-size:1rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);
+  }
+  nav.toc ol{ margin:0; padding-left:1rem }
+  nav.toc li{ margin:.4rem 0; }
+  nav.toc a{ color:var(--link); text-decoration:none }
+  main article{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius: 1rem;
+    padding:1.25rem 1.25rem;
+    margin-bottom:1rem;
+  }
+  article h3{
+    margin:.2rem 0 .35rem;
+    font-size:1.25rem;
+  }
+  .deck{
+    color:var(--muted);
+    margin:.25rem 0 1rem;
+  }
+  details{
+    background:transparent;
+    border:1px dashed var(--border);
+    border-radius:.75rem;
+    padding:.6rem .8rem;
+  }
+  details > summary{
+    list-style:none;
+    cursor:pointer;
+    font-weight:700;
+    color:var(--link);
+  }
+  details[open]{ border-style:solid }
+  .briefs{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:1rem;
+    padding:1rem 1.25rem;
+  }
+  .briefs h3{ margin-top:0 }
+  .briefs ul{ margin:0; padding-left:1.1rem }
+  .src{font-size:.72rem;color:var(--muted);margin:.35rem 0 0}.credit{
+    font-size:.9rem; color:var(--muted);
+  }
+  footer{
+    margin-top:2rem; padding-top:1rem;
+    border-top:1px solid var(--border);
+    color:var(--muted);
+  }
+  .badge{
+    display:inline-block; padding:.22rem .55rem; border-radius:.5rem; background:rgba(2,132,199,.12); color:#0369a1; font-weight:700; font-size:.8rem;
+    border:1px solid rgba(2,132,199,.25);
+    margin-right:.4rem;
+  }
+  .controls{ display:flex; gap:.5rem; flex-wrap:wrap; margin:.5rem 0 1rem }
+  .muted{ color:var(--muted) }
+  .callout{
+    background:linear-gradient(180deg, rgba(2,132,199,.08), transparent);
+    border:1px solid var(--border);
+    border-radius:.8rem;
+    padding: .75rem 1rem;
+  }
+  @media (max-width: 960px){
+    .container{ grid-template-columns: 1fr }
+    .meta{ text-align:left }
+    nav.toc{ position:relative }
+  }
+  @media print{
+    .toolbar, nav.toc, .controls { display:none !important }
+    body{ background:#fff; color:#000 }
+    main article, .briefs{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brand">
+      <div class="kicker">GLFC AML/CFT • Fraud & Financial Crime</div>
+      <h1>Monthly Newsletter — November 2019</h1>
+      <div class="toolbar">
+        <button class="btn" id="toggleThemeBtn" title="Toggle dark mode">🌓 Theme</button>
+        <button class="btn ghost" id="expandAllBtn" title="Expand all story details">＋ Expand all</button>
+        <button class="btn ghost" id="collapseAllBtn" title="Collapse all story details">－ Collapse all</button>
+        <button class="btn outline" onclick="window.print()" title="Print or Save to PDF">🖨️ Print / Save PDF</button>
+      </div>
+    </div>
+    <div class="meta">
+      <div><strong>Prepared by:</strong> Lawrence S. Grant‑Lapre, CAMS, CAMS‑Audit</div>
+      <div><strong>Period covered:</strong> Items published on/before <em>31 Oct 2019</em></div>
+      <div class="muted">Audience: AML/FC compliance officers</div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <nav class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#fatf-plenary">FATF October 2019 Plenary Outcomes</a></li>
+      <li><a href="#us-joint">U.S. Joint Digital‑Asset Statement</a></li>
+      <li><a href="#welcome-video">Global Dark‑Web Takedown</a></li>
+      <li><a href="#turkey-sanctions">Turkey Sanctions (OFAC)</a></li>
+      <li><a href="#halkbank">Halkbank Indictment</a></li>
+      <li><a href="#esa-report">EU Supervisory Risk Report</a></li>
+      <li><a href="#briefs">Brief Mentions</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <article id="fatf-plenary">
+      <span class="badge">Story 1</span>
+      <h3>FATF October 2019 Plenary Outcomes — Grey Lists & Emerging Risks</h3>
+      <p class="deck">Paris, 16–18 Oct 2019: Grey‑list updates (Iceland, Mongolia, Zimbabwe added; Ethiopia, Sri Lanka, Tunisia removed); continued monitoring of Pakistan and a sharper focus on Iran; workstreams on digital identity, stablecoins, and proceeds from illegal wildlife trade.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>The FATF’s October Plenary made immediate changes to jurisdictions under increased monitoring and signalled near‑term guidance on digital identity and the AML/CFT perimeter for rapidly scaling payment innovations, including stablecoins. Teams should reconcile screening lists, refresh country risk weightings, and prepare to incorporate forthcoming digital‑ID assurance criteria into onboarding and ongoing‑due‑diligence procedures.</p>
+      <p class="src" role="note">Source: FATF, “Outcomes of the FATF Plenary, 16–18 October 2019 (Paris)”, 18 Oct 2019.</p></details>
+    </article>
+
+    <article id="us-joint">
+      <span class="badge">Story 2</span>
+      <h3>U.S. Regulators Clarify BSA Coverage for Digital Assets</h3>
+      <p class="deck">11 Oct 2019: A joint statement from the SEC, CFTC, and FinCEN re‑asserts that Bank Secrecy Act obligations apply across exchanges, brokers, custodians, and some issuers operating with digital assets.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>The statement removes ambiguity: KYC/CDD, monitoring, and reporting expectations attach to many virtual‑asset activities even when those activities resemble securities or commodity functions. AML programmes supporting VASPs should be evaluated for Travel‑Rule readiness, beneficial‑ownership capture, and suspicious‑activity escalation pathways aligned to long‑standing BSA rules.</p>
+      <p class="src" role="note">Source: SEC / CFTC / FinCEN, “Joint Statement on Activities Involving Digital Assets”, 11 Oct 2019.</p></details>
+    </article>
+
+    <article id="welcome-video">
+      <span class="badge">Story 3</span>
+      <h3>Global Dark‑Web Takedown: “Welcome to Video”</h3>
+      <p class="deck">16 Oct 2019: DOJ and international partners dismantle a dark‑web network, with 337 arrests and multi‑terabyte seizures, enabled by blockchain‑based tracing of Bitcoin flows.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>Investigators linked on‑chain payments to services hosting child‑exploitation material. Where institutions have cryptocurrency exposure, typology libraries should include risk signals around cluster‑linked wallets, small‑value structuring to mixing services, rapid in‑and‑out exchange activity, and conversions routed through high‑risk VASPs. Cross‑border information sharing remains decisive to case outcomes.</p>
+      <p class="src" role="note">Source: U.S. Department of Justice, “Darknet Child Pornography Website ‘Welcome to Video’ Dismantled”, 16 Oct 2019.</p></details>
+    </article>
+
+    <article id="turkey-sanctions">
+      <span class="badge">Story 4</span>
+      <h3>OFAC Sanctions on Turkey in Response to Syria Operations</h3>
+      <p class="deck">14 Oct 2019: OFAC designates Turkish ministries and officials; listings were subsequently adjusted, highlighting the velocity of sanctions risk in live geopolitical contexts.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>Financial institutions with Turkey touchpoints needed to re‑screen counterparties and suppress payments promptly when designations landed. Event‑driven sanctions scenarios emphasise the importance of hourly list updates, change‑management for name‑screening systems, and communication playbooks for relationship managers and operations.</p>
+      <p class="src" role="note">Source: U.S. Department of the Treasury (OFAC), “Designations Pursuant to E.O. 13894 in Response to Turkey’s Military Operations in Syria”, 14 Oct 2019.</p></details>
+    </article>
+
+    <article id="halkbank">
+      <span class="badge">Story 5</span>
+      <h3>Halkbank Indicted for Iran Sanctions Evasion</h3>
+      <p class="deck">15 Oct 2019: SDNY charges a Turkish state‑owned bank with sanctions evasion and money‑laundering conspiracies, describing front‑company networks and USD‑clearing exposure.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>The indictment outlines schemes leveraging shell entities and falsified trade documentation to move Iranian‑linked funds through the U.S. system. Banks should revisit trade‑finance controls, escalation thresholds for politically exposed clients tied to state entities, and counterparty screening logic for nested relationships using dollar corridors.</p>
+      <p class="src" role="note">Source: U.S. Attorney’s Office, Southern District of New York, “United States v. Türkiye Halk Bankasi A.S. (Halkbank) — Indictment”, 15 Oct 2019.</p></details>
+    </article>
+
+    <article id="esa-report">
+      <span class="badge">Story 6</span>
+      <h3>EU Supervisory Authorities Flag Cross‑Sector AML/CFT Weaknesses</h3>
+      <p class="deck">4 Oct 2019: The EBA, ESMA, and EIOPA joint risk report identifies governance, risk‑assessment, and monitoring deficiencies across financial sectors.</p>
+      <details>
+        <summary>Read the short extract</summary>
+        <p>Firms can use the report as a benchmark when updating enterprise‑wide risk assessments and designing 2020 control‑testing plans. Particular care is warranted where rapid product digitisation has outpaced risk‑taxonomy updates and training.</p>
+      <p class="src" role="note">Source: Joint Committee of the European Supervisory Authorities (EBA, EIOPA, ESMA), “Joint Risk Assessment Report”, 4 Oct 2019.</p></details>
+    </article>
+
+    <section class="briefs" id="briefs">
+      <h3>Brief Mentions</h3>
+      <ul>
+        <li><strong>G7 Stablecoin Report:</strong> Highlights AML/CFT and governance risks for “global stablecoins,” with recommendations relevant to cross‑border payment providers.</li>
+        <li><strong>FATF Digital Identity:</strong> Upcoming guidance focuses on assurance levels and eKYC controls to support remote onboarding and lifecycle management.</li>
+        <li><strong>Singapore’s Payment Services Act:</strong> MAS clarifies licensing perimeter and AML obligations for payment and digital‑token services.</li>
+        <li><strong>ABN AMRO Investigation (Sep 2019):</strong> Dutch prosecutors open a criminal probe into systemic AML failures, underscoring governance and monitoring expectations.</li>
+        <li><strong>Basel AML Index 2019:</strong> Mid‑year index provides comparative ML/TF‑risk signals useful as contextual inputs to country‑risk models entering Q4.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <div class="credit">© 2019–2025 GLFC • Draft prepared for web presentation. This edition intentionally focuses on items published on or before 31 Oct 2019.</div>
+    </footer>
+  </main>
+</div>
+
+<script>
+  // Dark mode toggle
+  const root = document.documentElement;
+  const toggleBtn = document.getElementById('toggleThemeBtn');
+  const key = 'glfc-theme';
+  function setTheme(mode){ root.setAttribute('data-theme', mode); localStorage.setItem(key, mode); }
+  const saved = localStorage.getItem(key);
+  if(saved){ setTheme(saved); }
+  toggleBtn.addEventListener('click', ()=>{
+    const current = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    setTheme(current);
+  });
+
+  // Expand/collapse all details
+  const expandAllBtn = document.getElementById('expandAllBtn');
+  const collapseAllBtn = document.getElementById('collapseAllBtn');
+  const allDetails = () => Array.from(document.querySelectorAll('details'));
+  expandAllBtn.addEventListener('click', ()=> allDetails().forEach(d => d.open = true));
+  collapseAllBtn.addEventListener('click', ()=> allDetails().forEach(d => d.open = false));
+
+  // Build TOC dynamically from articles (kept static list above for control; this demonstrates approach if needed)
+  // (Left in place to facilitate extension for future months.)
+</script>
+</body>
+</html>
